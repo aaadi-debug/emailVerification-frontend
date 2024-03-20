@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App-header{
+    color: #1d564f;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btns{
+    width: 100%;
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+.btns button{
+    /* border: 2px solid yellow; */
+    max-width: 50%;
+    font-size: 1.2rem;
+    background-color: #7880652a;
+    border: none;
+    color: #16534d;
+    font-weight: 400;
+    padding: 10px 60px;
+}
+.btns button:hover{
+    border-top: 3px solid rgb(14, 108, 64);
+}
+
+.sign-up{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+.form-cntrl{
+    display: flex;
+    justify-content: space-evenly;
+    gap:18px ;
+    align-items: center;
+    padding: 10px;
+}
+.icon{
+    color: rgb(19, 112, 112);
+    font-size: 22px;
+    flex-shrink: 0;
+}
+input{
+    border: 2px solid yellow;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid rgb(143, 184, 172);
+    outline: none;
+    cursor: pointer;
+} 
+input::placeholder{
+    color:#16784f;
+}
+.submit{
+    width: 100%;
+    background-color: #1d9286;
+    border: none;
+    padding: 13px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.submit:hover{
+    border: 3px solid #1d9286;
+    background-color:#1d9286dc;
+    color: white;
+}
